@@ -2,13 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/*ALUNOS: Izabelly Azevedo Lima - Matrícula 2019201251
-		 Gabriel dos SN Martis - Matrícula 2019200071
-		 Raquel Vieira Cardoso - Matrícula 2019200854
 
-ATIVIDADE I  - QUESTÃO 2
-
-*/
 
 main(){
 
@@ -16,21 +10,21 @@ main(){
 	int num1, num2, num3,soma;
 	float media;
 
-		printf("Digite o primeiro número:");
+		printf("Digite o primeiro nÃºmero:");
 			scanf("%d",&num1);
 
-		printf("Digite o segundo número:");
+		printf("Digite o segundo nÃºmero:");
 			scanf("%d",&num2);
 
-		printf("Digite o terceiro número:");
+		printf("Digite o terceiro nÃºmero:");
 			scanf("%d",&num3);
 
 	soma = ( num1 + num2 + num3 );
 	media = ( soma / 3 );
 
-	printf("Os respectivos números informados são %d,%d,%d \n", num1, num2, num3);
-	printf("A soma dos números informados é %d \n", soma);
-	printf("A média dos números informados é %d \n", media);
+	printf("Os respectivos nÃºmeros informados sÃ£o %d,%d,%d \n", num1, num2, num3);
+	printf("A soma dos nÃºmeros informados Ã© %d \n", soma);
+	printf("A mÃ©dia dos nÃºmeros informados Ã© %d \n", media);
 
 
 
