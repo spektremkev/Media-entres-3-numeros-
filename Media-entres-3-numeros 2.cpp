@@ -2,9 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-
-
-main(){
+int main(){
 
 	setlocale(LC_ALL,"Portuguese");
 	int num1, num2, num3,soma;
